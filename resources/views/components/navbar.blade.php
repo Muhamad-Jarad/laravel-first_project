@@ -23,11 +23,12 @@
                 <a class="nav-link" href="{{ route('route.project') }}">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{{ route('route.contact') }}">Contact Me</a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" href="{{ route('route.about') }}">About Me</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{ route('route.contact') }}">Contact Me</a>
+              </li>
+             
             </ul>
           </div>
         </div>
