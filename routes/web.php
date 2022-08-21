@@ -18,10 +18,10 @@ Route::get('/', function () {
 });
 Route::get('/projects', function () {
     return view('project');
-});
+})->name('route.project');
 Route::get('/contact-me', function () {
     return view('contact');
-});
+})->name('route.contact');
 Route::get('/about-me', function () {
     return view('about');
-});
+})->name('route.about');

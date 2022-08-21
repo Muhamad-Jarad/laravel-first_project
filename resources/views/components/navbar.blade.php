@@ -17,16 +17,16 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">Home</a>
+                <a class="nav-link active" aria-current="page" href="/example2">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/projects">Projects</a>
+                <a class="nav-link" href="{{ route('route.project') }}">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/contact-me">Contact Me</a>
+                <a class="nav-link" href="{{ route('route.contact') }}">Contact Me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/about-me">About Me</a>
+                <a class="nav-link" href="{{ route('route.about') }}">About Me</a>
               </li>
             </ul>
           </div>
